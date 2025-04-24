@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* #56021F bg color and  #A294F9 */
+
+body{
+  /* background:#141414; */
+  background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-floating {
+  animation: floating 3s ease-in-out infinite;
+}
