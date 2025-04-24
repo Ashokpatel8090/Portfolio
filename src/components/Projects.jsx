@@ -17,7 +17,7 @@ const Projects = () => {
         "A real-time chat application built with Node.js and React, featuring seamless messaging, authentication, and a responsive UI for a smooth user experience.",
       image: chatImg,
       demoLink: vidChat,
-      livelink:'https://chatme-306c.onrender.com/'
+      livelink:'https://deploy-job-portal-3.onrender.com/'
     },
     {
       id: 2,
